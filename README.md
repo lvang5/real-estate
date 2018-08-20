@@ -1,4 +1,4 @@
-# MEAN Stack To-do list
+# Real Estate Listing
 I created a MEAN stack application that allows a user to have 3 different view home, rental, and sale. Within the views are images of properties that are available. This list will be updated consistently as a user adds additional homes. Feel free to contact me if you have any questions/comments.
 
 ## Built with these technologies:
@@ -19,7 +19,7 @@ I created a MEAN stack application that allows a user to have 3 different view h
 
 ## Screen Shot
 Inline-style: ![alt text]
-/Users/Lais/prime/tier2/weekendHW/real-estate-listings/Screen Shot 2018-08-20 at 8.51.43 AM.png
+(https://github.com/lvang5/real-estate/blob/master/Screen%20Shot%202018-08-20%20at%208.51.43%20AM.png)
 
 
 ## Completed features
