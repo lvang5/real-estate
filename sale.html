@@ -1,0 +1,23 @@
+<div>
+
+
+    <h1>For Sale</h1>
+
+    <div class="card" ng-repeat="sale in sc.sale">
+
+            <img ng-src="images/{{sale.image_path}}">
+            <div class="container">
+                <p>{{sale.cost}}</p>
+                <p>{{sale.sqft}}</p>
+                <p>{{sale.type}}</p>
+                <p>{{sale.city}}</p>
+    
+            </div>
+            <button ng-click="sc.deleteSale(sale.id)" class="btn">Delete</button>
+    
+        </div>
+
+
+
+
+</div>

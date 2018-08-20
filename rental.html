@@ -1,0 +1,19 @@
+<div>
+    <h2>Rentals</h2>
+
+
+    <div class="card" ng-repeat="rent in rc.rentals">
+
+        <img ng-src="images/{{rent.image_path}}">
+        <div class="container">
+            <p>{{rent.cost}}</p>
+            <p>{{rent.sqft}}</p>
+            <p>{{rent.type}}</p>
+            <p>{{rent.city}}</p>
+
+        </div>
+        <button ng-click="rc.deleteRental(rent.id)" class="btn">Delete</button>
+
+    </div>
+
+</div>

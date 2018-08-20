@@ -1,0 +1,26 @@
+<h1> Home Page</h1>
+
+
+<form ng-submit="hc.addHome()">
+
+    <input ng-model="hc.cost" type="number" placeholder="Cost">
+    <input ng-model="hc.sqft" type="number" placeholder="Square Footage">
+    <select ng-model="hc.saleOrRent">
+        <option value="sale">Sale</option>
+        <option value="rent">Rent</option>
+    </select>
+    <input ng-model="hc.city" type="text" placeholder="City">
+    <select ng-model="hc.image">
+
+        <option value="classic-flats.jpg">Classic</option>
+        <option value="haunted.png">Haunted</option>
+        <option value="older.jpg">Older Home</option>
+        <option value="rental.jpg">First Rental</option>
+        <option value="rental2.jpg">Second Rental</option>
+        <option value="shiny.jpg">Shiny House</option>
+        <option value="stony.jpg">Stony House</option>
+
+    </select>
+
+    <input type="submit" value="submit">
+</form>
